@@ -1,0 +1,105 @@
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 0%;
+    padding-bottom: 3%;
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+h1 {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 75px;
+    font-family: 'ABeeZee', sans-serif;
+
+}
+
+h2 {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 75px;
+    padding-top: 1%;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    color: rgb(124, 107, 11);
+    text-decoration: none;
+    text-align: center;
+    margin-right: 75px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+form {
+    position: relative;
+
+    width: 940px;
+    height: 698px;
+    margin: 0 auto;
+    background: #ffffff url(background.jpg);
+}
+
+label {
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+input,
+textarea {
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+    border-radius: 10px;
+    border: 2px solid rgb(124, 107, 11);
+    padding: 0 10px;
+    margin: 0;
+    width: 240px;
+    background: white;
+}
+textarea {
+    display: block;
+  
+    padding: 10px;
+    margin: 10px 0 0 -10px;
+    width: 340px;
+    height: 360px;
+  
+    resize: none;
+    overflow: auto;
+  }
+  button {
+    position: absolute;
+    left: 440px;
+    top: 360px;
+  
+    padding: 5px;
+  
+    font: 'ABeeZee', sans-serif;
+    border: 20px solid #333;
+    border-radius: 5px;
+    background: none;
+  }
+  
+  button:after {
+    content: " >>>";
+  }
+  
+  button:hover,
+  button:focus {
+    outline: none;
+    background: #000;
+    color: #010101;
+  }
+
